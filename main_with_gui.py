@@ -118,7 +118,7 @@ while True:
         window["STUDENT_NUMBER"].update(data)
 
     elapsedTime = time.perf_counter() - t1
-    fps = f"{1/elapsedTime}FPS"
+    fps = f"{(1/elapsedTime):.2f}FPS"
 
 
 window.close() # GUIを正式に閉じる。
