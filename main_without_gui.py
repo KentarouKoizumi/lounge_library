@@ -61,7 +61,7 @@ while(True):
 
     # fpsを計算
     elapsedTime = time.perf_counter() - t1
-    fps = f"{1/elapsedTime}FPS"
+    fps = f"{(1/elapsedTime):.2f}FPS"
 
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
